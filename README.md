@@ -1,5 +1,73 @@
 # ComfyUI HAIGC Prompt / HAIGC 提示词插件
 
+<details>
+<summary><strong>English</strong></summary>
+
+## Description
+
+A comprehensive ComfyUI custom node suite designed for professional AI art and video generation. It simplifies prompt engineering by providing structured categories, bilingual interfaces (Chinese UI / English Output), and specialized tools for cinematography and text management.
+
+## ✨ Features
+
+### 1. HAIGC Prompt
+**Node Name**: `HAIGC_PromptNode`
+- **Description**: The core prompt builder.
+- **Categories**: Quality, Style, Lighting, Atmosphere, Camera, Composition, Color.
+
+### 2. Video Camera Prompt
+**Node Name**: `HAIGC_VideoCameraNode`
+- **Description**: Specialized for AI Video (Sora, Runway, Pika, Kling, etc.).
+- **Features**: 
+  - **Zoom & Focus**: Dolly Zoom (Vertigo), Rack Focus, etc.
+  - **Movement**: Pan, Tilt, Truck, etc.
+  - **Tracking**: FPV, Subject Tracking, Over-the-shoulder, etc.
+  - **Time & Speed**: Bullet Time, Timelapse, etc.
+
+### 3. Style Prompt
+**Node Name**: `HAIGC_StyleNode`
+- **Description**: One-click style selector.
+- **Styles**: Photography, 3D Render, Anime, Oil Painting, Sketch, Ink, and more.
+
+### 4. Camera Settings
+**Node Name**: `HAIGC_CameraNode`
+- **Description**: Simulates professional camera gears.
+- **Settings**: Camera Body, Lens Focal Length, Film Type, Filter Effects.
+
+### 5. Multi-Text Builder
+**Node Name**: `HAIGC_TextBuilderNode`
+- **Description**: Advanced text concatenation tool.
+- **Features**: 
+  - **5 Toggleable Inputs**: Each text input has a dedicated on/off switch for flexible control.
+  - **Prefix & Suffix**: Add wrapper text to the final results.
+  - **List Output**: Generates a list of strings, perfect for batch processing in ComfyUI.
+
+## 📦 Installation
+
+1. **Navigate to ComfyUI custom_nodes directory**:
+   ```bash
+   cd ComfyUI/custom_nodes/
+   ```
+
+2. **Clone the repository**:
+   ```bash
+   git clone https://github.com/YourUsername/Comfyui-HAIGC-prompt.git
+   ```
+
+3. **Restart ComfyUI**.
+
+## 🛠️ Usage
+
+- **Find Nodes**: Double-click on the canvas and search for "HAIGC" or specific node names.
+- **Connect**: Connect the output to `CLIP Text Encode` or any node accepting String/List inputs.
+
+## 📞 Contact
+
+- **WeChat**: `HAIGC1994`
+- **Author**: HAIGC
+- **Feedback**: If you have any suggestions or questions, please feel free to contact via WeChat.
+
+</details>
+
 一套专为专业 AI 绘画和视频生成设计的 ComfyUI 自定义节点套件。它通过结构化的分类、中英双语界面（中文界面/英文输出）以及专业的摄影运镜和文本管理工具，极大地简化了提示词工程。
 
 ---
@@ -68,76 +136,6 @@
 - **微信号**: `HAIGC1994`
 - **作者**: HAIGC
 - **反馈**: 如果您有任何建议或问题，欢迎通过微信联系。
-
----
-
-<details>
-<summary><strong>Click to view English Version / 点击查看英文说明</strong></summary>
-
-## Description
-
-A comprehensive ComfyUI custom node suite designed for professional AI art and video generation. It simplifies prompt engineering by providing structured categories, bilingual interfaces (Chinese UI / English Output), and specialized tools for cinematography and text management.
-
-## ✨ Features
-
-### 1. HAIGC Prompt
-**Node Name**: `HAIGC_PromptNode`
-- **Description**: The core prompt builder.
-- **Categories**: Quality, Style, Lighting, Atmosphere, Camera, Composition, Color.
-
-### 2. Video Camera Prompt
-**Node Name**: `HAIGC_VideoCameraNode`
-- **Description**: Specialized for AI Video (Sora, Runway, Pika, Kling, etc.).
-- **Features**: 
-  - **Zoom & Focus**: Dolly Zoom (Vertigo), Rack Focus, etc.
-  - **Movement**: Pan, Tilt, Truck, etc.
-  - **Tracking**: FPV, Subject Tracking, Over-the-shoulder, etc.
-  - **Time & Speed**: Bullet Time, Timelapse, etc.
-
-### 3. Style Prompt
-**Node Name**: `HAIGC_StyleNode`
-- **Description**: One-click style selector.
-- **Styles**: Photography, 3D Render, Anime, Oil Painting, Sketch, Ink, and more.
-
-### 4. Camera Settings
-**Node Name**: `HAIGC_CameraNode`
-- **Description**: Simulates professional camera gears.
-- **Settings**: Camera Body, Lens Focal Length, Film Type, Filter Effects.
-
-### 5. Multi-Text Builder
-**Node Name**: `HAIGC_TextBuilderNode`
-- **Description**: Advanced text concatenation tool.
-- **Features**: 
-  - **5 Toggleable Inputs**: Each text input has a dedicated on/off switch for flexible control.
-  - **Prefix & Suffix**: Add wrapper text to the final results.
-  - **List Output**: Generates a list of strings, perfect for batch processing in ComfyUI.
-
-## 📦 Installation
-
-1. **Navigate to ComfyUI custom_nodes directory**:
-   ```bash
-   cd ComfyUI/custom_nodes/
-   ```
-
-2. **Clone the repository**:
-   ```bash
-   git clone https://github.com/YourUsername/Comfyui-HAIGC-prompt.git
-   ```
-
-3. **Restart ComfyUI**.
-
-## 🛠️ Usage
-
-- **Find Nodes**: Double-click on the canvas and search for "HAIGC" or specific node names.
-- **Connect**: Connect the output to `CLIP Text Encode` or any node accepting String/List inputs.
-
-## 📞 Contact
-
-- **WeChat**: `HAIGC1994`
-- **Author**: HAIGC
-- **Feedback**: If you have any suggestions or questions, please feel free to contact via WeChat.
-
-</details>
 
 ---
 
